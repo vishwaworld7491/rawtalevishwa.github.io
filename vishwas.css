@@ -1,0 +1,133 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+.pimg1 {
+  background-image: url(./birsa6.jpg);
+  min-height: 600px;
+  padding: 0%;
+  text-align: justify;
+  
+}
+.pimg2 {
+  background-image: url(./TANTYAMAMA.jpg);
+  min-height: 400px;
+}
+.pimg3 {
+  background-image: url(./KHAJYA.jpg);
+  min-height: 400px;
+}
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.ptext{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  
+}
+.textBg {
+  background: #e70312;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.section {
+  padding: 50px 80px;
+  text-align: center;
+}
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+.section-red {
+    background-color: red;
+    color: #ddd;
+  }
+.raw{
+    text-align: right;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    
+    background: #42c8c8;
+    color: #fff;
+    padding: 20px;
+  }
+  .sona{
+    background: #c842ab;
+    color: #fff;
+    padding: 10px;
+    padding-top: 2px;
+    padding-bottom: 20px;
+    text-align: center;
+    height: 10px;
+
+    position: fixed;
+  bottom: 5px;
+  right: 4px;
+ 
+  width: 250px;
+  
+  margin-left: 580px;
+  color: black;
+  font-size: 12px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  border-color: red;
+  }
+  @media (max-width: 400px) {
+    .textBg{
+        font-size: small;
+        size: 400;
+        font-size: 8px;
+        letter-spacing: 4px;
+
+    }
+    .pimg1{
+        width: auto;
+        
+    }
+    .pimg2{
+        min-height: auto
+        /* width: 250px; */
+    }
+    .pimg3{
+            
+        min-height: auto;
+        /* width: 300px; */
+            
+    }
+    .raw{
+        size: 50%;
+        font-size: 8px;
+        letter-spacing: 4px;
+      }
+      
+      }
+            
+    
+  }
